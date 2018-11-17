@@ -1,0 +1,107 @@
+html {
+    background-image: url('../img/backgrounds/dreswen-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    background-color: inherit!important;
+}
+.navbar, .btn, .btn:hover {
+ box-shadow: none;   
+}
+.btn {
+    padding: .64rem 2.14rem!important;
+}
+.badge {
+    background-color: #18202D;
+}
+.themechanger {
+    background-color: inherit!important;
+}
+option {
+    background-color: #252B30;
+}
+.jumbotron {
+    background-color: #e0e0e0;
+    box-shadow: #7a7a7a 0px 5px 15px;
+    margin-bottom: 1.2rem;
+    margin-top: -30px;
+}
+.navdrop {
+    background-color: inherit!important;
+}
+.icon {
+    text-align: center;
+    margin-top: 1em;
+}
+.form-control:focus {
+    color: white;
+    background-color: inherit;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-default {
+    background-color: #911921!important;
+}
+.fa-inverse {
+    color: #911921;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    opacity: 0.75;
+    -webkit-transition: opacity 0.2s ease-in;
+    -moz-transition: opacity 0.2s ease-in;
+    -o-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+    opacity: 1.00;
+}
+
+.form-control {
+    background-color: inherit;
+    color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #911921;
+}
+tr {
+    background-color: #C0232C;
+}
+
+.modal-header {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.table-bordered th, .table-bordered td {
+}
+.table-bordered {;
+    color: white;
+}
+thead {
+    color: white!important;
+    background-color: #5DBD8F;
+}
+table.table a {
+    margin: 0;
+    color: white!important;
+}
+table td {
+    font-size: 1.2rem!important;
+    font-weight: 300;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white!important;
+    opacity: 1; /* Firefox */
+}
+body > div > div:nth-child(2) > div > div:nth-child(6) > div {
+    color:white;
+}
+.form-control:focus {
+    border-color: #269670!important;
+}
