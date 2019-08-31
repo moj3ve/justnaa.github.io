@@ -1,0 +1,61 @@
+#header {
+    position: absolute;
+    width: 413px;
+    height: 117px;
+    left: 104px;
+    top: 138px;
+}
+.name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 117px;
+
+    color: #45454D;
+}
+.lower {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #EAE9E9;
+}
+#first {
+    position: absolute;
+    top: 150px;
+}
+#second {
+    position: absolute;
+    top: 225px;
+    text-decoration: none;
+}
+.aboutMe {
+    position: absolute;
+    left: 104px;
+    top: 433px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #45454D;
+}
+.hide {
+
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 23px;
+
+    color: #EAE9E9;
+}
