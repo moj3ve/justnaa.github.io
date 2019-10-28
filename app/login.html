@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <title>Test</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<div id='display_name'></div>
+<hr/>
+<div id="my-login-button-target"></div>
+<script>
+
+    if (null === localStorage.getItem("displayName")) {
+        window.snapKitInit = function () {
+            var loginButtonIconId = 'my-login-button-target';
+            // Mount Login Button
+            snap.loginkit.mountButton(loginButtonIconId, {
+                clientId: '8c4fe02d-36f7-4d89-9816-0b3bbf7d107f',
+                redirectURI: 'https://3d8e32ac.ngrok.io/login',
+                scopeList: [
+                    'user.display_name'
+                ],
+                handleResponseCallback: function () {
+                    snap.loginkit.fetchUserInfo().then(function (result) {
+                        console.log('User info:', result.data.me);
+                        localStorage.setItem("displayName", result.data.me.displayName);
+                        document.getElementById("display_name").innerHTML = result.data.me.displayName;
+                        window.location = "/app";
+                    }, function (err) {
+                        console.log(err); // Error
+                    });
+                },
+            });
+        };
+
+        // Load the SDK asynchronously
+        (function (d, s, id) {
+            var js, sjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://sdk.snapkit.com/js/v1/login.js";
+            sjs.parentNode.insertBefore(js, sjs);
+        }(document, 'script', 'loginkit-sdk'));
+    }
+</script>
+</body>
+</html>
