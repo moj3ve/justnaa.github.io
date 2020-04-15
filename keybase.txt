@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/juliettebe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://justnaaa.me
+  * I am juliettebe (https://keybase.io/juliettebe) on keybase.
+  * I have a public key ASBCDvbgdiJzZxyIH_V5urQqyDJrtK_HuOmfu9OjfmSKXgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120420ef6e0762273671c881ff579bab42ac8326bb4afc7b8e99fbbd3a37e648a5e0a",
+      "host": "keybase.io",
+      "kid": "0120420ef6e0762273671c881ff579bab42ac8326bb4afc7b8e99fbbd3a37e648a5e0a",
+      "uid": "4504ff1cf841d7630c5a20419fc45619",
+      "username": "juliettebe"
+    },
+    "merkle_root": {
+      "ctime": 1586976111,
+      "hash": "611b1e59aa89a4002aa3f650c3b3fb8fa397ce933607463ae417d973318d6b59031867a1a96501ebc94b58a7de9651cbd5db1ba2fb2828a6bd8acac810e9fb0d",
+      "hash_meta": "2e5bc9411d8e5609b19f34a54a155570c93871c6d708647c0e0f595d6547f026",
+      "seqno": 15932968
+    },
+    "service": {
+      "entropy": "I4bQ3xWoMvE+HiImuS3SZ3wl",
+      "hostname": "justnaaa.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.0"
+  },
+  "ctime": 1586976120,
+  "expire_in": 504576000,
+  "prev": "711fb8f8e43582989506b7b0bf8d3158284f867d0269343c3a9b0eeca8125032",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQg724HYic2cciB/1ebq0Ksgya7Svx7jpn7vTo35kil4Kp3BheWxvYWTESpcCBcQgcR+4+OQ1gpiVBrewv40xWChPhn0CaTQ8OpsO7KgSUDLEIFt0HmcATXUqBeE8yW6HhSGpK/pgZroukz3Q4+7snHK8AgHCo3NpZ8RAUZf5PWpWpVRnCMGQFi2WXSHeYM1ghHFD4kSLMme28oEIQ+Dl6ddYoF2Z2ZrsLA2Kr8JjbfwDeyhAY0pJ2nOwCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIL6GZZ/v4g+KglJMm0ykwpKlkyuLK42n61uO4R3T7MHbo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/juliettebe
+
+==================================================================
